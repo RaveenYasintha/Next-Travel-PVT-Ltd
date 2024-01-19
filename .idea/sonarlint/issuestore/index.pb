@@ -69,3 +69,5 @@ MUser Service/src/main/java/com/next/user_service/utill/JWTTokenGenarator.java,
 LUser Service/src/main/java/com/next/user_service/UserServiceApplication.java,e\7\e751d106348a01476d8505e53bb402cdab9e8bef
 ‚
 RGuide Service/src/main/java/com/next/guide_service/controller/GuideController.java,f\4\f4093f637f4015e1265679613b019f58be9e6881
+ˆ
+XVehicle Service/src/main/java/com/next/vehicle_service/controller/VehicleController.java,9\3\93c04d4f7113245993ca229c7d86350d1f8d0bf0

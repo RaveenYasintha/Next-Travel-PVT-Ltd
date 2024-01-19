@@ -8,7 +8,6 @@ import java.util.Optional;
 
 public interface UserService {
 
-//    User updateUser(User user);
 
     LoginDto addUser(LoginDto loginDto);
 

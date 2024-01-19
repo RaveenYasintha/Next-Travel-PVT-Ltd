@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 @RequestMapping(value = "/user")
 public class UserController {
     @Autowired
@@ -35,8 +35,9 @@ public class UserController {
 //    }
 
 
+
     @PutMapping("/update_user")
-    public Object updateUser(@PathVariable Long userId, @RequestBody LoginDto updateLoginDto, @RequestHeader(name = "Authorization") String authorizationHeader){
+    public Object updateUser(@RequestParam Long userId, @RequestBody LoginDto updateLoginDto, @RequestHeader(name = "Authorization") String authorizationHeader){
         JWTTokenGenarator jwtTokenGenarator = new JWTTokenGenarator();
         if (jwtTokenGenarator.validateToken(authorizationHeader)) {
             return this.userService.updateUser(userId,updateLoginDto);

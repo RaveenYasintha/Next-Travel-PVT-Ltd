@@ -33,17 +33,10 @@ public class UserServiceImpl implements UserService {
         return new LoginDto(save);
     }
 
-//    @Override
-//    public User updateUser(User user) {
-//        if (!userRepository.existsById(user.getId())) {
-//            throw new RuntimeException("User Not Found");
-//        }
-//        return userRepository.save(user);
-//    }user
 
     @Override
     public void deleteUser(Integer id) {
-
+        userRepository.deleteById(Long.valueOf(id));
     }
 
     @Override
