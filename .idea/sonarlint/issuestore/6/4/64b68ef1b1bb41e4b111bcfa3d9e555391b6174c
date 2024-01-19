@@ -1,0 +1,8 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‘º´àÑ1
+X	java:S125"<This block of commented-out lines of code should be removed.(½£õ„8Ÿº´àÑ1
+]	java:S125!"<This block of commented-out lines of code should be removed.(¬Õòûÿÿÿÿ8¥º´àÑ1
+]	java:S1257"<This block of commented-out lines of code should be removed.(úÜŒ‹ûÿÿÿÿ8®º´àÑ1
+[
+java:S1128">Remove this unused import 'com.next.user_service.entity.User'.(ÚÁòğ8´º´àÑ1
